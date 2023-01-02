@@ -114,7 +114,7 @@ export default Landing;
 - no name collisions
 - apply javascript logic
 - [Styled Components Docs](https://styled-components.com/)
-- [Styled Components Course](https://www.udemy.com/course/styled-components-tutorial-and-project-course/?referralCode=9DABB172FCB2625B663F)
+
 
 ```sh
 npm install styled-components
@@ -128,7 +128,7 @@ const El = styled.el`
 `;
 ```
 
-- element can be any html element (div,button,section, etc)
+- element can be any html element (div, button, section, etc)
 
 - no name collisions, since unique class
 - vscode-styled-components extension

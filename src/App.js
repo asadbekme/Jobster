@@ -1,8 +1,11 @@
 import React from 'react';
+import Landing from './pages/Landing';
 
 function App() {
   return (
-    <h2>Jobster</h2>
+    <div>
+      <Landing />
+    </div>
   );
 }
 
