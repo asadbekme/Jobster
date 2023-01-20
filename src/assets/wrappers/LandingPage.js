@@ -19,6 +19,7 @@ const Wrapper = styled.main`
 
   h1 {
     font-weight: 700;
+    font-size: 3.05rem;
 
     span {
       color: var(--primary-500);

@@ -1,6 +1,10 @@
+import Wrapper from '../assets/wrappers/Navbar';
+
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <Wrapper>
+      <h2>Navbar</h2>
+    </Wrapper>
   );
 }
 
