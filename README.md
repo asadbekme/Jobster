@@ -1376,9 +1376,9 @@ const Profile = () => {
   const dispatch = useDispatch();
 
   const [userData,setUserData] = useState({
-    name: user?.name || ''
-    email: user?.email || ''
-    lastName: user?.lastName || ''
+    name: user?.name || '',
+    email: user?.email || '',
+    lastName: user?.lastName || '',
     location: user?.location || ''
   })
 
@@ -1392,10 +1392,10 @@ const Profile = () => {
     }
   };
 
-  const handleChange = (e) =>{
-    const name = e.target.name
-    const value = e.target.value
-    setUserData({...userData, [name]: value})
+  const handleChange = (e) => {
+    const name = e.target.name;
+    const value = e.target.value;
+    setUserData({...userData, [name]: value});
   }
 
   return (
